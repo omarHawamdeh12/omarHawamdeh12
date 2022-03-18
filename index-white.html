@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourSkill</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="mt-5">
+  <div id="top-menu">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border border-top-0 border-left-0 border-right-0 border-success">
+          <a class="navbar-brand" href="index-white.html" tabindex="-1">YourSkill</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index-white.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-0" href="index-white.html" tabindex="-1">Trend</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="log -white.html">History</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link btn btn-success text-dark ml-lg-3 d-inline-block" href="index.html"  data-toggle="modal" data-target="#loginModal">Log In</a>                      
+              </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search">
+              <button onclick="location.href='search -white.html';" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </div>
+          </div>
+        </nav>
+
+            
+            <!-- Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                          <span>&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Username or Email</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Password</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                  </form>
+                </div>
+                
+                <div class="modal-footer">
+                    <a href="" class="text-success">Forgot your password</a>
+                    <a href="" class="mx-auto text-success">Sign Up</a>
+                    <button type="button" class="btn btn-success">Log In</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="content m-4">
+             <h4 class="pb-1 mr-0 text-dark"><a href="" class="alert-link text-dark">Suggested videos</a></h4> 
+            <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/hsoub2.jpg" class="card-img-top"  alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">دورة تطوير واجهات المستخدم - أكاديمية حسوب</p>
+                    </div>
+                  </a>
+                  <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                    <span class="d-block"><i class="fas fa-film"></i> <span>16k views</span></span>
+                    <i class="far fa-clock"></i> <span>4 Years ago</span>
+                  </div>
+                  <a href="channel - white.html" class="channel-img text-dark">
+                    <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                    <span class="card-text">Hsoub Academy</span>                    
+                  </a>                 
+                </div>                
+              </div>
+
+
+                   
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/rehber.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">Temel Kavramlar 2 | 49 Günde TYT Matematik Kampı 2.Gün | Rehber Matematik</p>
+                    </div>
+                  </a>
+                  <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                    <span class="d-block"><i class="fas fa-film"></i> <span>700k views</span></span>
+                    <i class="far fa-clock"></i> <span>3 weeks ago</span>
+                  </div>
+                  <a href="channel - white.html" class="channel-img text-dark">
+                    <img src="img/icons/rehberlogo.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                    <span class="card-text">Rehber Matematik</span>                    
+                  </a>
+                </div>                
+              </div>
+ 
+                
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/tonguc.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">LGS Matematik Soru Tahminleri 🚀 Sınavda Bu Sorular Çıkabilir!</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>150k views</span></span>
+                      <i class="far fa-clock"></i> <span>3 month ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                      <img src="img/thumbnail/tonguc8.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                      <span class="card-text">Tonguç 8.Sınıf</span>                    
+                    </a>
+                </div>                
+              </div>
+ 
+                
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/droosonline.jpeg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">هل الذكاء وراثي أم مكتسب؟! 🧠 </p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>2.6M views</span></span>
+                      <i class="far fa-clock"></i> <span>4 month ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                      <img src="img/icons/droos.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                      <span class="card-text">Droos Online</span>                    
+                    </a>
+                </div>                
+              </div>
+ 
+                 
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/eqonomi.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">مارك زوكربيرج حالته صعبه جدا وأبل ما بترحمش - صراع أبل وفيسبوك</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>231k views</span></span>
+                      <i class="far fa-clock"></i> <span>4 days ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                      <img src="img/icons/eqonomy.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                      <span class="card-text">اقتصاد الكوكب </span>                    
+                    </a>
+                </div>                 
+              </div>
+
+                 
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/icons/max.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">McLaren 720s - Forza Horizon 4 | Logitech g29 gameplay</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>16M views</span></span>
+                      <i class="far fa-clock"></i> <span>2 Years ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                    <img src="img/icons/x.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                    <span class="card-text">Xpertgamingtech </span>                    
+                    </a>
+                </div>                
+              </div>
+ 
+                 
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0"">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/archery.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">Olympic archer Mete Gazoz is a special person [EN SUBTITLES] | Behind the Bow</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>375k views</span>></span>
+                      <i class="far fa-clock"></i> <span>2 Years ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                    <img src="img/icons/archeyman.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                    <span class="card-text">World Archery</span>                    
+                    </a>
+                </div>                 
+              </div>
+
+                 
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/hummer.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">الكارثة التي قضت على سيارات هامر ؟ وهل ستعود من جديد ؟</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>1.2M views</span></span>
+                      <i class="far fa-clock"></i> <span>1 Year ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                      <img src="img/icons/eqonomy.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                      <span class="card-text">اقتصاد الكوكب </span>                    
+                    </a>
+                </div>                 
+              </div>
+
+                 
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/marqus.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">Google Pixel 5A: Spot the Difference!</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>1.3M views</span></span>
+                      <i class="far fa-clock"></i> <span>16 hours ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                    <img src="img/icons/marqus2.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                    <span class="card-text">Marques Brownlee</span>                    
+                    </a>
+                </div>                 
+              </div>
+
+                 
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/icons/androidbasha.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">تجميعة جيمنج خرافية مع كرت 6800 | حطمت كل توقعاتي 💣</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>46k views</span></span>
+                      <i class="far fa-clock"></i> <span>1 day ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                    <img src="img/icons/androidman.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                    <span class="card-text">Android Basha | أندرويد باشا </span>                    
+                    </a>
+                </div>                 
+              </div>
+
+                
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/hsoub.png" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">أريد تعلم البرمجة من أين أبدأ؟</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>772k views</span></span>
+                      <i class="far fa-clock"></i> <span>2 Years ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                      <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                      <span class="card-text">Hsoub Academy</span>                    
+                    </a>
+                </div>                 
+              </div>
+
+                         
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="whicard p-1 mb-4 card text-dark border border-success rounded-0">
+                  <a href="watch - white.html" class="text-dark">
+                    <img src="img/thumbnail/marqus1.jpg" class="card-img-top" alt="card image">
+                    <div class="card-body p-0 border border-success border-left-0 border-right-0 border-bottom-0">
+                      <p class="card-title">Samsung Galaxy Z Fold 3 Impressions: 3 New Features!</p>
+                    </div>
+                  </a>
+                    <div class="card-footer text-dark border border-success border-right-0 border-left-0">
+                      <span class="d-block"><i class="fas fa-film"></i> <span>2.5M views</span></span>
+                      <i class="far fa-clock"></i> <span>6 days ago</span>
+                    </div>
+                    <a href="channel - white.html" class="channel-img text-dark">
+                      <img src="img/icons/marqus2.jpg" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                      <span class="card-text">Marques Brownlee</span>                    
+                    </a> 
+                </div>                
+              </div>
+ 
+                 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/455db3c11c.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

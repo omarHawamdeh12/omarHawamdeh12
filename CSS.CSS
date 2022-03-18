@@ -1,0 +1,29 @@
+.card-img-top{
+    width: 300px;
+    height: 230px;
+}
+
+/* .text-muted i, .mx-auto i {
+    margin-left: 5px;
+  }
+
+.space{
+    margin-right: 950px;
+}  */
+
+/*تغيير لون الخلفية للعنصر الفعال في القائمة*/
+.list-group-item.active {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+hr.new1 {
+    border-top: 1px solid #28a745;
+  }
+
+  .card-img{
+      width: 340px;
+      height: 230px;
+  }
+
+                                                                          

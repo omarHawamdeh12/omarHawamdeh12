@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourSkill | WATCH</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/CSS.CSS">
+</head>
+<body class="mt-5">
+  <div id="top-menu">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="index.html" tabindex="-1">YourSkill</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Suggested</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-0" href="index.html" tabindex="-1">Trend</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link btn btn-success text-white ml-lg-3 d-inline-block" href="index.html"  data-toggle="modal" data-target="#loginModal">Log In</a>                      
+              </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search">
+              <button onclick="location.href='search.html';" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </div>
+          </div>
+        </nav>
+
+            
+            <!-- Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Username or Email</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Password</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="">Forgot your password</a>
+                    <a href="" class="mx-auto">Sign Up</a>
+                    <button type="button" class="btn btn-primary">Log In</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="watch-page pt-5">
+      <div class="container-fluid">
+        <div class="card border-0">
+          <div class="row">
+            <div class="col-lg-7  border-0">
+              <video controls="controls" muted poster="img/poster.png"class="w-100">
+                <source src="video/hsoub.webm" type="video/webm">
+                <source src="video/hsoub.mp4" type="video/mp4">
+                <track kind="captions" src="video/caption.vtt" srclang="ar" label="عربي" default>
+                Your browser does not support the element <code>video</code>
+              </video>            
+              <div class="videoProperties ">               
+                <div class="card-block">
+                  <a href="watch.html"><h4>User Interface Development Course - Hsoub Academy</h4></a>
+  
+                  <small class="text-muted">
+                    <i class="fas fa-film" style="font-size: 12px;"></i> <span>200k views</span>                     
+                    <i class="fas fa-clock" style="font-size: 12px;"></i> <span>4 month ago</span>
+                  </small>   
+                  
+                  <div class="watch-icon my-2 border-0">
+                    <i class="far fa-heart rounded-circle bg-secondary p-1 mr-1 text-white" style="font-size: 20px;" title="love"></i>
+                    <i class="far fa-clock icon-large rounded-circle bg-secondary p-1 mr-1 text-white" style="font-size: 20px;" title="Watch later"></i>
+                    <i class="far fa-share-square icon-large rounded-circle bg-secondary p-1 mr-1 text-white" style="font-size: 20px;" title="Share"></i>
+                    <i class="far fa-play-circle icon-large rounded-circle bg-secondary p-1 mr-1 text-white" style="font-size: 20px;" title="add to Playlist"></i>
+                    <span class="ml-1">Report</span>
+                  </div>      
+                              
+                  <hr>
+                  <div class="channel-logo border-0">
+                  <a href="channel.html" class="channel-img">
+                    <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                    <span class="card-text">Hsoub Academy</span>                    
+                    </a>
+                  </div>
+                  <p class="ml-3">This course was prepared by a group of the best Arab programmers in a simple and clear sequence. By completing it, you will become a user interface developer without the need
+                    Having prior programming knowledge, during these you will learn to develop user interfaces step by step based on experience
+                    Process and scientific material provided by professional trainers.
+                  </p>
+                </div>
+          <div class="w-100">
+            <div class="comments">
+              <div class="comments-details mb-3">
+                <span>Comments 4</span>
+                <span class="dropdown">
+                  <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SORT BY
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Top comments</a>
+                    <a class="dropdown-item" href="#">Newest first</a>
+                  </div>
+                </span>
+              </div>
+              <div class="public-comments">
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Add comment"></textarea>
+                  <button class="btn btn-success mt-3">Comment</button>
+                    <div class="card mt-5 mb-3">
+                      <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                <p class="text-secondary text-center">15 minutes ago</p>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    <p><a class="float-left mt-3 mt-md-4" href="#"><strong>Anas hawamdeh</strong></a></p>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>                  
+                                </p>
+                                <div class="clearfix"></div>
+                                <p><i style="color: rgb(235, 142, 0); font-size: xx-large;" class="fas fa-grin-squint mr-2" ></i><i style="color: rgb(235, 142, 0); font-size: xx-large;" class="fas fa-smile mr-2"></i>Hey, thank you for this great course</p>
+                                <p> 
+                                    <a class="float-right btn btn-info ml-2 mt-4"> <i class="fa fa-reply"></i> Reply</a>
+                                    <a class="float-right btn text-white btn-info mt-4"> <i class="fa fa-heart"></i> Like</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card card-inner ml-5 mt-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                        <p class="text-secondary text-center">15 Minutes ago</p>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p><a href="#"><strong>Hsoub Academy</strong></a></p>
+                                        <p>Hi Anas, we are very happy that you liked the course</p>
+                                        <p>
+                                            <a class="float-right btn text-white btn-info"> <i class="fa fa-heart"></i> Like</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-5 mb-3">
+                      <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                <p class="text-secondary text-center">47 Minutes ago</p>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    <p><a class="float-left mt-3 mt-md-4" href="#"><strong>fethi bin oqla</strong></a></p>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>                  
+                                </p>
+                                <div class="clearfix"></div>
+                                <p>Very nice one of the best courses I've seen. Thanks for your efforts</p>
+                                <p> 
+                                    <a class="float-right btn btn-info ml-2 mt-4"> <i class="fa fa-reply"></i> Reply</a>
+                                    <a class="float-right btn text-white btn-info mt-4"> <i class="fa fa-heart"></i> Like</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card card-inner ml-5 mt-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                        <p class="text-secondary text-center">2 hours ago</p>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p><a href="#"><strong>Hsoub Academy</strong></a></p>
+                                        <p>Hello fethi bin oqla, we wish you a successful educational journey</p>
+                                        <p>
+                                            <a class="float-right btn text-white btn-info"> <i class="fa fa-heart"></i> Like</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-5 mb-3">
+                      <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                <p class="text-secondary text-center">6 hours ago</p>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    <p><a class="float-left mt-3 mt-md-4" href="#"><strong>alex bigboy</strong></a></p>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>                  
+                                </p>
+                                <div class="clearfix"></div>
+                                <p>Very nice, great course. Thanks for your efforts</p>
+                                <p> 
+                                    <a class="float-right btn btn-info ml-2 mt-4"> <i class="fa fa-reply"></i> Reply</a>
+                                    <a class="float-right btn text-white btn-info mt-4"> <i class="fa fa-heart"></i> Like</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card card-inner ml-5 mt-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                        <p class="text-secondary text-center">2 days ago</p>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p><a href="#"><strong>Hsoub Academy</strong></a></p>
+                                        <p>Hey Hadi, we are so glad you liked the course</p>
+                                        <p>
+                                            <a class="float-right btn text-white btn-info"> <i class="fa fa-heart"></i> Like</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-5 mb-3">
+                      <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                <p class="text-secondary text-center">1 day ago</p>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    <p><a class="float-left mt-3 mt-md-4" href="#"><strong>Anas hawamdeh</strong></a></p>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>                  
+                                </p>
+                                <div class="clearfix"></div>
+                                <p>Hello, I liked the course a lot and I liked the Bootstrap framework through which we were able to create a complete website with ease.</p>
+                                <p> 
+                                    <a class="float-right btn btn-info ml-2 mt-4"> <i class="fa fa-reply"></i> Reply</a>
+                                    <a class="float-right btn text-white btn-info mt-4"> <i class="fa fa-heart"></i> Like</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card card-inner ml-5 mt-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                        <p class="text-secondary text-center">4 days ago</p>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p><a href="#"><strong>Hsoub Academy</strong></a></p>
+                                        <p>Hi Dima, we are very happy that you liked the course. Yes, the Bootstrap framework is one of the best and most famous frameworks and helps us a lot and saves us effort and time</p>
+                                        <p>
+                                            <a class="float-right btn text-white btn-info"> <i class="fa fa-heart"></i> Like</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>  
+              <div class="col-md-5 pr-0">
+                <div><h1>Suggested videos</h1></div>
+                <div class="card p-2 mb-4">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <a href="watch.html">
+                              <img class="w-100 h-100" src="img/thumbnail/app.jpg" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-block">
+                              <a href="watch.html">
+                              <b>
+                                <p>User Interface Development Course - Hsoub Academy</p>
+                              </b>
+                              </a>
+                              <small class="text-muted">
+                                    <i class="fas fa-film ml-2"></i> <span>1.6M views</span>
+                                
+                                <a href="channel.html" class="channel-img d-sm-block ml-1 ml-sm-0 mt-2">
+                                    <img src="img/ch-logo.png" alt="" width="30" class="search-img rounded-circle my-2 ml-1">
+                                    <span class="card-text">Hsoub Academy</span>
+                                </a>
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card p-2 mb-4">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <a href="watch.html">
+                              <img class="w-100 h-100" src="img/thumbnail/ruby.jpg" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-block">
+                              <a href="watch.html">
+                              <b>
+                                <p>Web Application Development Course Using Ruby Language - Hsoub Academy</p>
+                              </b>
+                              </a>
+                              <small class="text-muted">
+                                    <i class="fas fa-film ml-2"></i> <span>6.7M views</span>
+                                
+                                <a href="channel.html" class="channel-img d-sm-block ml-1 ml-sm-0 mt-2">
+                                    <img src="img/ch-logo.png" alt="" width="30" class="search-img rounded-circle my-2 ml-1">
+                                    <span class="card-text">Hsoub Academy</span>
+                                </a>
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card p-2 mb-4">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <a href="watch.html">
+                              <img class="w-100 h-100" src="img/thumbnail/mostaql2.png" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-block">
+                              <a href="watch.html">
+                              <b>
+                                <p>Top Tips for Choosing the Best Freelancers and Maintaining a High Employment Rate</p>
+                              </b>
+                              </a>
+                              <small class="text-muted">
+                                    <i class="fas fa-film ml-2"></i> <span>200k views</span>
+                              </small>  
+                                <a href="channel.html" class="channel-img d-sm-block ml-1 ml-sm-0 mt-2">
+                                    <img src="img/mostaql.png" alt="" width="30" class="search-img rounded-circle my-2 ml-1">
+                                    <span class="card-text">Mustaqil</span>
+                                </a>                          
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card p-2 mb-4">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <a href="watch.html">
+                              <img class="w-100 h-100" src="img/thumbnail/khamsat3.png" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-block">
+                              <a href="watch.html">
+                              <b>
+                                <p>Simple steps to register on Fiverr and start earning money</p>
+                              </b>
+                              </a>
+                              <small class="text-muted">
+                                    <i class="fas fa-film ml-2"></i> <span>7.1M views</span>
+                                
+                                <a href="channel.html" class="channel-img d-sm-block ml-1 ml-sm-0 mt-2">
+                                    <img src="img/khamsat.jpg" alt="" width="30" class="search-img rounded-circle my-2 ml-1">
+                                    <span class="card-text">khamsat</span>
+                                </a>
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card p-2 mb-4">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <a href="watch.html">
+                              <img class="w-100 h-100" src="img/thumbnail/php.jpg" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-block">
+                              <a href="watch.html">
+                              <b>
+                                <p>Web Application Development Course Using PHP - Hsoub Academy</p>
+                              </b>
+                              </a>
+                              <small class="text-muted">
+                                    <i class="fas fa-film ml-2"></i> <span>800k views</span>
+                                
+                                <a href="channel.html" class="channel-img d-sm-block ml-1 ml-sm-0 mt-2">
+                                    <img src="img/ch-logo.png" alt="" width="30" class="search-img rounded-circle my-2 ml-1">
+                                    <span class="card-text">Hsoub Academy</span>
+                                </a>
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card p-2 mb-4">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <a href="watch.html">
+                              <img class="w-100 h-100" src="img/thumbnail/khamsat1.png" alt="">
+                          </a>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-block">
+                              <a href="watch.html">
+                              <b>
+                                <p>Learn how to present your skills on Fiverr</p>
+                              </b>
+                              </a>
+                              <small class="text-muted">
+                                    <i class="fas fa-film ml-2"></i> <span>60k views</span>
+                                
+                                <a href="channel.html" class="channel-img d-sm-block ml-1 ml-sm-0 mt-2">
+                                    <img src="img/khamsat.jpg" alt="" width="30" class="search-img rounded-circle my-2 ml-1">
+                                    <span class="card-text">khamsat</span>
+                                </a>
+                              </small>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card p-2 mb-4">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <a href="watch.html">
+                              <img class="w-100 h-100" src="img/thumbnail/mostaql.png">
+                          </a>
+                        </div>
+                      <div class="col-sm-7">
+                          <div class="card-block">
+                              <a href="watch.html">
+                              <b>
+                                <p>Hire the best freelancers in the Arab world - independent</p>
+                              </b>
+                              </a>
+                              <small class="text-muted">
+                                    <i class="fas fa-film ml-2"></i> <span>1k views</span>
+                              </small>  
+                                <a href="channel.html" class="channel-img d-sm-block ml-1 ml-sm-0 mt-2">
+                                    <img src="img/mostaql.png" alt="" width="30" class="search-img rounded-circle my-2 ml-1">
+                                    <span class="card-text">Mustaqil</span>
+                                </a>
+                              
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+             
+          </div>
+            
+
+            
+        </div>
+      </div>
+            
+    </div>
+  </div>
+    
+    <script src="https://kit.fontawesome.com/455db3c11c.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
